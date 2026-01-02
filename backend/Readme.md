@@ -104,6 +104,11 @@ Start-Process java -ArgumentList '-jar', 'C:\path\to\your\project\target\spring-
 
 ```
 
+```linux
+nohup java -jar student-registration-backend-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
+```
+
 This will keep the application running even if you close the PowerShell window.
 #new
+
 
