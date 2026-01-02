@@ -85,7 +85,7 @@ Run the generated JAR file by using the following command:
 
 ```bash
 
-java -jar target\spring-backend-v1.jar
+java -jar target\student-registration-backend-0.0.1-SNAPSHOT.jar
 ```
 
 The application will start and be accessible at:
@@ -106,3 +106,4 @@ Start-Process java -ArgumentList '-jar', 'C:\path\to\your\project\target\spring-
 
 This will keep the application running even if you close the PowerShell window.
 #new
+
